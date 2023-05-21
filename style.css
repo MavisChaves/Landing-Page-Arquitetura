@@ -1,0 +1,122 @@
+*{ 
+    margin: 0px;
+    font-family: "inter"; 
+  
+}
+#menusuperior{
+    background-color:#303030;
+    color: aliceblue;
+    width: 1350px;
+    height: 375px;
+    
+#titulo-menu-superior{
+    margin-left: 75px;
+    padding-top: 150px;
+    font-size: 60px;
+}
+}
+#texto-menu-superior{
+    margin-left: 78px;
+    padding-top: 10px;
+}
+#menuinformacional{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    padding: 50px 50px 50px 50px;
+    background-color: #F9F9F9;
+    
+    
+}
+.textoinformativo{
+ margin: 10px 50px 50px 50px;
+ display: flex;
+ align-items: center;
+ font-size: 15px;
+ position: relative;
+ top: 25px;
+}
+#numero1{
+    font-size: 30px;
+    position: relative;
+    left: 60px;
+    bottom: 15px;}
+   
+#numero2{
+    font-size: 30px;
+    position: relative;
+    left: 40px;
+    bottom: 15px;
+   
+}
+#numero3{
+    font-size: 30px;
+    position: relative;
+    left: 159px;
+    bottom: 15px;
+}
+#secaoimagem{
+    background-color:#FFFFFF;
+}
+#imagem{
+    position: relative;
+    left: 850px;
+    top: 50px;
+    height: 550px ;
+    width: 510 px;
+
+}
+#tituloinformacional{
+    font-size: 30px;
+    position: relative;
+    bottom: 335px;
+    left: 105px;
+    font-weight: bold;
+}
+#textoinformacional{
+    font-size: 20px;
+    position: relative;
+    left: 105px;
+    bottom: 310px;
+}
+#body{
+    overflow-x: hidden;
+}
+#formulario{
+    background-color: #303030;
+    padding: 50px 50px 50px 50px;
+    text-align: center;
+}
+#tituloformulario{
+    font-size: 25px;
+    color: #FFFFFF;
+    padding: 20px;
+}
+input{
+    width: 300px;
+    height: 40px;
+    background-color: #FFFFFF;
+    margin: 20px;
+    border: 0px;
+    border-radius: 5px;
+   padding-left: 10px;
+  
+}
+button{
+    background-color: #C07212;
+    height: 40px;
+    width: 250px;
+    color: #FFFFFF;
+    border: 0px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #ffa73b;;
+    color: white;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #05103086;
+    transition-duration: 0.5s;
+}
